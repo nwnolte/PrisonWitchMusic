@@ -1,0 +1,208 @@
+{
+  "version": "0.3.1",
+  "modules": [
+    {
+      "plugin": "Fundamental",
+      "model": "VCO",
+      "pos": [
+        435.0,
+        0.0
+      ],
+      "params": [
+        0.0,
+        0.0,
+        -20.250007629394531,
+        0.335999995470047,
+        0.28999993205070496,
+        0.50099998712539673,
+        0.52349996566772461
+      ]
+    },
+    {
+      "plugin": "Core",
+      "model": "AudioInterface",
+      "pos": [
+        765.0,
+        0.0
+      ],
+      "params": [],
+      "data": {
+        "deviceName": "MME: Speakers (High Definition Audio (0 in, 8 out)",
+        "sampleRate": 44100.0,
+        "blockSize": 256
+      }
+    },
+    {
+      "plugin": "Fundamental",
+      "model": "Delay",
+      "pos": [
+        1155.0,
+        0.0
+      ],
+      "params": [
+        0.60650002956390381,
+        0.76250004768371582,
+        0.74600028991699219,
+        0.62449997663497925
+      ]
+    },
+    {
+      "plugin": "Befaco",
+      "model": "SlewLimiter",
+      "pos": [
+        1035.0,
+        380.0
+      ],
+      "params": [
+        0.64899998903274536,
+        0.42599961161613464,
+        0.1485002189874649
+      ]
+    },
+    {
+      "plugin": "Fundamental",
+      "model": "VCMixer",
+      "pos": [
+        1560.0,
+        380.0
+      ],
+      "params": [
+        0.5,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "plugin": "Befaco",
+      "model": "Mixer",
+      "pos": [
+        1620.0,
+        0.0
+      ],
+      "params": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "plugin": "AudibleInstruments",
+      "model": "Shades",
+      "pos": [
+        1725.0,
+        380.0
+      ],
+      "params": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "plugin": "AudibleInstruments",
+      "model": "Links",
+      "pos": [
+        630.0,
+        380.0
+      ],
+      "params": []
+    },
+    {
+      "plugin": "AudibleInstruments",
+      "model": "Warps",
+      "pos": [
+        780.0,
+        380.0
+      ],
+      "params": [
+        6.8719973564147949,
+        0.29600048065185547,
+        0.0,
+        0.59800010919570923,
+        0.6940000057220459
+      ],
+      "data": {
+        "shape": 1
+      }
+    }
+  ],
+  "wires": [
+    {
+      "outputModuleId": 0,
+      "outputId": 0,
+      "inputModuleId": 7,
+      "inputId": 0
+    },
+    {
+      "outputModuleId": 2,
+      "outputId": 0,
+      "inputModuleId": 1,
+      "inputId": 0
+    },
+    {
+      "outputModuleId": 0,
+      "outputId": 1,
+      "inputModuleId": 3,
+      "inputId": 2
+    },
+    {
+      "outputModuleId": 3,
+      "outputId": 0,
+      "inputModuleId": 1,
+      "inputId": 1
+    },
+    {
+      "outputModuleId": 7,
+      "outputId": 0,
+      "inputModuleId": 2,
+      "inputId": 4
+    },
+    {
+      "outputModuleId": 0,
+      "outputId": 2,
+      "inputModuleId": 8,
+      "inputId": 5
+    },
+    {
+      "outputModuleId": 0,
+      "outputId": 3,
+      "inputModuleId": 7,
+      "inputId": 2
+    },
+    {
+      "outputModuleId": 7,
+      "outputId": 3,
+      "inputModuleId": 3,
+      "inputId": 0
+    },
+    {
+      "outputModuleId": 7,
+      "outputId": 4,
+      "inputModuleId": 8,
+      "inputId": 4
+    },
+    {
+      "outputModuleId": 8,
+      "outputId": 0,
+      "inputModuleId": 3,
+      "inputId": 1
+    },
+    {
+      "outputModuleId": 7,
+      "outputId": 1,
+      "inputModuleId": 8,
+      "inputId": 2
+    },
+    {
+      "outputModuleId": 7,
+      "outputId": 2,
+      "inputModuleId": 8,
+      "inputId": 3
+    }
+  ]
+}

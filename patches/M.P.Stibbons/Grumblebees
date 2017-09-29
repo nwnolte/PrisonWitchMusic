@@ -1,0 +1,396 @@
+{
+  "version": "0.3.1",
+  "modules": [
+    {
+      "plugin": "Core",
+      "model": "AudioInterface",
+      "pos": [
+        915.0,
+        0.0
+      ],
+      "params": [],
+      "data": {
+        "deviceName": "MME: Speakers (High Definition Audio (0 in, 8 out)",
+        "sampleRate": 44100.0,
+        "blockSize": 256
+      }
+    },
+    {
+      "plugin": "Fundamental",
+      "model": "VCO",
+      "pos": [
+        480.0,
+        0.0
+      ],
+      "params": [
+        0.0,
+        1.0,
+        -29.970022201538086,
+        -0.23999997973442078,
+        0.52399998903274536,
+        0.2805001437664032,
+        0.65100014209747314
+      ]
+    },
+    {
+      "plugin": "Befaco",
+      "model": "DualAtenuverter",
+      "pos": [
+        645.0,
+        380.0
+      ],
+      "params": [
+        0.22499999403953552,
+        -8.4299983978271484,
+        -0.28199988603591919,
+        -2.5800018310546875
+      ]
+    },
+    {
+      "plugin": "AudibleInstruments",
+      "model": "Branches",
+      "pos": [
+        855.0,
+        380.0
+      ],
+      "params": [
+        0.45199963450431824,
+        0.57949984073638916
+      ]
+    },
+    {
+      "plugin": "AudibleInstruments",
+      "model": "Veils",
+      "pos": [
+        960.0,
+        380.0
+      ],
+      "params": [
+        0.56550002098083496,
+        0.55050009489059448,
+        0.39599999785423279,
+        0.55500006675720215,
+        0.66850018501281738,
+        0.58600002527236938,
+        0.42250028252601624,
+        0.16200000047683716
+      ]
+    },
+    {
+      "plugin": "Befaco",
+      "model": "EvenVCO",
+      "pos": [
+        1215.0,
+        380.0
+      ],
+      "params": [
+        -2.0,
+        -4.9980006217956543,
+        -0.02400004118680954
+      ]
+    },
+    {
+      "plugin": "Befaco",
+      "model": "ABC",
+      "pos": [
+        1365.0,
+        380.0
+      ],
+      "params": [
+        -0.10499998182058334,
+        0.48999983072280884,
+        0.51600003242492676,
+        0.68700003623962402
+      ]
+    },
+    {
+      "plugin": "Befaco",
+      "model": "EvenVCO",
+      "pos": [
+        1500.0,
+        380.0
+      ],
+      "params": [
+        -3.0,
+        -3.4019992351531982,
+        -0.059999655932188034
+      ]
+    },
+    {
+      "plugin": "Fundamental",
+      "model": "SEQ3",
+      "pos": [
+        1155.0,
+        0.0
+      ],
+      "params": [
+        2.0,
+        0.0,
+        0.0,
+        8.0,
+        1.7189996242523193,
+        1.6379997730255127,
+        0.86400002241134644,
+        0.0,
+        0.0,
+        1.5659999847412109,
+        6.0,
+        0.0,
+        1.9079999923706055,
+        3.6630001068115234,
+        0.0,
+        0.0,
+        0.0,
+        1.6920000314712524,
+        0.0,
+        0.0,
+        2.754000186920166,
+        1.3410000801086426,
+        0.0,
+        0.0,
+        5.0219998359680176,
+        0.0,
+        2.9249997138977051,
+        0.0,
+        0.0,
+        1.9890000820159912,
+        1.1340000629425049,
+        0.0,
+        2.8169996738433838,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "data": {
+        "gates": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ]
+      }
+    }
+  ],
+  "wires": [
+    {
+      "outputModuleId": 1,
+      "outputId": 0,
+      "inputModuleId": 3,
+      "inputId": 0
+    },
+    {
+      "outputModuleId": 1,
+      "outputId": 2,
+      "inputModuleId": 2,
+      "inputId": 1
+    },
+    {
+      "outputModuleId": 1,
+      "outputId": 3,
+      "inputModuleId": 1,
+      "inputId": 0
+    },
+    {
+      "outputModuleId": 1,
+      "outputId": 1,
+      "inputModuleId": 2,
+      "inputId": 0
+    },
+    {
+      "outputModuleId": 2,
+      "outputId": 0,
+      "inputModuleId": 1,
+      "inputId": 1
+    },
+    {
+      "outputModuleId": 2,
+      "outputId": 1,
+      "inputModuleId": 1,
+      "inputId": 3
+    },
+    {
+      "outputModuleId": 3,
+      "outputId": 0,
+      "inputModuleId": 0,
+      "inputId": 0
+    },
+    {
+      "outputModuleId": 3,
+      "outputId": 1,
+      "inputModuleId": 0,
+      "inputId": 1
+    },
+    {
+      "outputModuleId": 5,
+      "outputId": 1,
+      "inputModuleId": 4,
+      "inputId": 0
+    },
+    {
+      "outputModuleId": 5,
+      "outputId": 0,
+      "inputModuleId": 4,
+      "inputId": 1
+    },
+    {
+      "outputModuleId": 5,
+      "outputId": 3,
+      "inputModuleId": 4,
+      "inputId": 2
+    },
+    {
+      "outputModuleId": 5,
+      "outputId": 4,
+      "inputModuleId": 4,
+      "inputId": 5
+    },
+    {
+      "outputModuleId": 4,
+      "outputId": 1,
+      "inputModuleId": 3,
+      "inputId": 1
+    },
+    {
+      "outputModuleId": 3,
+      "outputId": 2,
+      "inputModuleId": 3,
+      "inputId": 3
+    },
+    {
+      "outputModuleId": 4,
+      "outputId": 0,
+      "inputModuleId": 3,
+      "inputId": 2
+    },
+    {
+      "outputModuleId": 4,
+      "outputId": 2,
+      "inputModuleId": 0,
+      "inputId": 2
+    },
+    {
+      "outputModuleId": 4,
+      "outputId": 3,
+      "inputModuleId": 0,
+      "inputId": 3
+    },
+    {
+      "outputModuleId": 3,
+      "outputId": 3,
+      "inputModuleId": 5,
+      "inputId": 2
+    },
+    {
+      "outputModuleId": 5,
+      "outputId": 2,
+      "inputModuleId": 4,
+      "inputId": 3
+    },
+    {
+      "outputModuleId": 7,
+      "outputId": 1,
+      "inputModuleId": 5,
+      "inputId": 1
+    },
+    {
+      "outputModuleId": 7,
+      "outputId": 4,
+      "inputModuleId": 6,
+      "inputId": 1
+    },
+    {
+      "outputModuleId": 7,
+      "outputId": 0,
+      "inputModuleId": 5,
+      "inputId": 0
+    },
+    {
+      "outputModuleId": 7,
+      "outputId": 3,
+      "inputModuleId": 6,
+      "inputId": 0
+    },
+    {
+      "outputModuleId": 7,
+      "outputId": 2,
+      "inputModuleId": 1,
+      "inputId": 2
+    },
+    {
+      "outputModuleId": 8,
+      "outputId": 1,
+      "inputModuleId": 7,
+      "inputId": 1
+    },
+    {
+      "outputModuleId": 6,
+      "outputId": 0,
+      "inputModuleId": 5,
+      "inputId": 4
+    },
+    {
+      "outputModuleId": 8,
+      "outputId": 2,
+      "inputModuleId": 6,
+      "inputId": 2
+    },
+    {
+      "outputModuleId": 8,
+      "outputId": 0,
+      "inputModuleId": 7,
+      "inputId": 2
+    },
+    {
+      "outputModuleId": 8,
+      "outputId": 3,
+      "inputModuleId": 4,
+      "inputId": 7
+    },
+    {
+      "outputModuleId": 8,
+      "outputId": 8,
+      "inputModuleId": 4,
+      "inputId": 4
+    },
+    {
+      "outputModuleId": 8,
+      "outputId": 7,
+      "inputModuleId": 5,
+      "inputId": 3
+    },
+    {
+      "outputModuleId": 8,
+      "outputId": 5,
+      "inputModuleId": 7,
+      "inputId": 0
+    },
+    {
+      "outputModuleId": 8,
+      "outputId": 11,
+      "inputModuleId": 7,
+      "inputId": 3
+    },
+    {
+      "outputModuleId": 8,
+      "outputId": 9,
+      "inputModuleId": 7,
+      "inputId": 4
+    },
+    {
+      "outputModuleId": 8,
+      "outputId": 6,
+      "inputModuleId": 6,
+      "inputId": 4
+    },
+    {
+      "outputModuleId": 8,
+      "outputId": 4,
+      "inputModuleId": 6,
+      "inputId": 5
+    }
+  ]
+}

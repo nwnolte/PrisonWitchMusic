@@ -1,0 +1,444 @@
+{
+  "version": "0.3.1",
+  "modules": [
+    {
+      "plugin": "Core",
+      "model": "AudioInterface",
+      "pos": [
+        555.0,
+        380.0
+      ],
+      "params": [],
+      "data": {
+        "deviceName": "MME: Microsoft Sound Mapper - Output (0 in, 2 out)",
+        "sampleRate": 44100.0,
+        "blockSize": 256
+      }
+    },
+    {
+      "plugin": "Befaco",
+      "model": "Mixer",
+      "pos": [
+        480.0,
+        380.0
+      ],
+      "params": [
+        0.70350003242492676,
+        0.55350011587142944,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "plugin": "Befaco",
+      "model": "ABC",
+      "pos": [
+        390.0,
+        380.0
+      ],
+      "params": [
+        0.21899998188018799,
+        0.4440000057220459,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "plugin": "Befaco",
+      "model": "SpringReverb",
+      "pos": [
+        270.0,
+        380.0
+      ],
+      "params": [
+        0.19850030541419983,
+        0.2745000422000885,
+        0.89349997043609619,
+        0.88150012493133545
+      ]
+    },
+    {
+      "plugin": "Befaco",
+      "model": "EvenVCO",
+      "pos": [
+        30.0,
+        380.0
+      ],
+      "params": [
+        -2.0,
+        -0.96599966287612915,
+        0.39900007843971252
+      ]
+    },
+    {
+      "plugin": "AudibleInstruments",
+      "model": "Clouds",
+      "pos": [
+        75.0,
+        0.0
+      ],
+      "params": [
+        0.60199993848800659,
+        0.40700006484985352,
+        0.80399990081787109,
+        0.67249995470046997,
+        0.65749990940093994,
+        0.40700021386146545,
+        0.38300016522407532
+      ]
+    },
+    {
+      "plugin": "AudibleInstruments",
+      "model": "Warps",
+      "pos": [
+        465.0,
+        0.0
+      ],
+      "params": [
+        6.0239973068237305,
+        0.72050023078918457,
+        0.0,
+        0.15850014984607697,
+        0.10599992424249649
+      ],
+      "data": {
+        "shape": 2
+      }
+    },
+    {
+      "plugin": "AudibleInstruments",
+      "model": "Links",
+      "pos": [
+        405.0,
+        760.0
+      ],
+      "params": []
+    },
+    {
+      "plugin": "AudibleInstruments",
+      "model": "Links",
+      "pos": [
+        465.0,
+        760.0
+      ],
+      "params": []
+    },
+    {
+      "plugin": "AudibleInstruments",
+      "model": "Links",
+      "pos": [
+        525.0,
+        760.0
+      ],
+      "params": []
+    },
+    {
+      "plugin": "Fundamental",
+      "model": "VCO",
+      "pos": [
+        615.0,
+        0.0
+      ],
+      "params": [
+        0.0,
+        0.0,
+        -52.056003570556641,
+        0.21600005030632019,
+        0.49099984765052795,
+        0.62700015306472778,
+        0.80099993944168091
+      ]
+    },
+    {
+      "plugin": "Fundamental",
+      "model": "VCA",
+      "pos": [
+        765.0,
+        380.0
+      ],
+      "params": [
+        0.19100010395050049,
+        0.41750010848045349
+      ]
+    },
+    {
+      "plugin": "Befaco",
+      "model": "EvenVCO",
+      "pos": [
+        630.0,
+        760.0
+      ],
+      "params": [
+        -5.0,
+        -4.4520010948181152,
+        0.36900007724761963
+      ]
+    }
+  ],
+  "wires": [
+    {
+      "outputModuleId": 1,
+      "outputId": 0,
+      "inputModuleId": 0,
+      "inputId": 0
+    },
+    {
+      "outputModuleId": 5,
+      "outputId": 0,
+      "inputModuleId": 3,
+      "inputId": 2
+    },
+    {
+      "outputModuleId": 5,
+      "outputId": 1,
+      "inputModuleId": 3,
+      "inputId": 3
+    },
+    {
+      "outputModuleId": 3,
+      "outputId": 0,
+      "inputModuleId": 7,
+      "inputId": 0
+    },
+    {
+      "outputModuleId": 4,
+      "outputId": 1,
+      "inputModuleId": 5,
+      "inputId": 6
+    },
+    {
+      "outputModuleId": 4,
+      "outputId": 3,
+      "inputModuleId": 5,
+      "inputId": 7
+    },
+    {
+      "outputModuleId": 3,
+      "outputId": 1,
+      "inputModuleId": 4,
+      "inputId": 1
+    },
+    {
+      "outputModuleId": 4,
+      "outputId": 4,
+      "inputModuleId": 3,
+      "inputId": 0
+    },
+    {
+      "outputModuleId": 4,
+      "outputId": 0,
+      "inputModuleId": 3,
+      "inputId": 1
+    },
+    {
+      "outputModuleId": 4,
+      "outputId": 2,
+      "inputModuleId": 5,
+      "inputId": 3
+    },
+    {
+      "outputModuleId": 6,
+      "outputId": 0,
+      "inputModuleId": 5,
+      "inputId": 8
+    },
+    {
+      "outputModuleId": 6,
+      "outputId": 1,
+      "inputModuleId": 1,
+      "inputId": 1
+    },
+    {
+      "outputModuleId": 2,
+      "outputId": 0,
+      "inputModuleId": 4,
+      "inputId": 4
+    },
+    {
+      "outputModuleId": 7,
+      "outputId": 0,
+      "inputModuleId": 1,
+      "inputId": 0
+    },
+    {
+      "outputModuleId": 7,
+      "outputId": 1,
+      "inputModuleId": 2,
+      "inputId": 0
+    },
+    {
+      "outputModuleId": 8,
+      "outputId": 0,
+      "inputModuleId": 6,
+      "inputId": 2
+    },
+    {
+      "outputModuleId": 7,
+      "outputId": 2,
+      "inputModuleId": 8,
+      "inputId": 0
+    },
+    {
+      "outputModuleId": 8,
+      "outputId": 1,
+      "inputModuleId": 6,
+      "inputId": 0
+    },
+    {
+      "outputModuleId": 8,
+      "outputId": 2,
+      "inputModuleId": 9,
+      "inputId": 0
+    },
+    {
+      "outputModuleId": 9,
+      "outputId": 0,
+      "inputModuleId": 4,
+      "inputId": 2
+    },
+    {
+      "outputModuleId": 9,
+      "outputId": 2,
+      "inputModuleId": 5,
+      "inputId": 1
+    },
+    {
+      "outputModuleId": 9,
+      "outputId": 1,
+      "inputModuleId": 9,
+      "inputId": 1
+    },
+    {
+      "outputModuleId": 9,
+      "outputId": 3,
+      "inputModuleId": 4,
+      "inputId": 0
+    },
+    {
+      "outputModuleId": 1,
+      "outputId": 1,
+      "inputModuleId": 0,
+      "inputId": 1
+    },
+    {
+      "outputModuleId": 10,
+      "outputId": 3,
+      "inputModuleId": 9,
+      "inputId": 2
+    },
+    {
+      "outputModuleId": 9,
+      "outputId": 4,
+      "inputModuleId": 2,
+      "inputId": 1
+    },
+    {
+      "outputModuleId": 10,
+      "outputId": 1,
+      "inputModuleId": 2,
+      "inputId": 2
+    },
+    {
+      "outputModuleId": 10,
+      "outputId": 2,
+      "inputModuleId": 5,
+      "inputId": 5
+    },
+    {
+      "outputModuleId": 8,
+      "outputId": 4,
+      "inputModuleId": 10,
+      "inputId": 2
+    },
+    {
+      "outputModuleId": 10,
+      "outputId": 0,
+      "inputModuleId": 8,
+      "inputId": 2
+    },
+    {
+      "outputModuleId": 8,
+      "outputId": 3,
+      "inputModuleId": 7,
+      "inputId": 2
+    },
+    {
+      "outputModuleId": 2,
+      "outputId": 1,
+      "inputModuleId": 8,
+      "inputId": 1
+    },
+    {
+      "outputModuleId": 7,
+      "outputId": 4,
+      "inputModuleId": 3,
+      "inputId": 4
+    },
+    {
+      "outputModuleId": 7,
+      "outputId": 5,
+      "inputModuleId": 7,
+      "inputId": 1
+    },
+    {
+      "outputModuleId": 7,
+      "outputId": 3,
+      "inputModuleId": 10,
+      "inputId": 1
+    },
+    {
+      "outputModuleId": 12,
+      "outputId": 4,
+      "inputModuleId": 7,
+      "inputId": 4
+    },
+    {
+      "outputModuleId": 12,
+      "outputId": 1,
+      "inputModuleId": 12,
+      "inputId": 4
+    },
+    {
+      "outputModuleId": 12,
+      "outputId": 2,
+      "inputModuleId": 11,
+      "inputId": 5
+    },
+    {
+      "outputModuleId": 12,
+      "outputId": 0,
+      "inputModuleId": 9,
+      "inputId": 4
+    },
+    {
+      "outputModuleId": 9,
+      "outputId": 5,
+      "inputModuleId": 8,
+      "inputId": 4
+    },
+    {
+      "outputModuleId": 8,
+      "outputId": 5,
+      "inputModuleId": 7,
+      "inputId": 5
+    },
+    {
+      "outputModuleId": 12,
+      "outputId": 3,
+      "inputModuleId": 8,
+      "inputId": 3
+    },
+    {
+      "outputModuleId": 11,
+      "outputId": 1,
+      "inputModuleId": 9,
+      "inputId": 5
+    },
+    {
+      "outputModuleId": 0,
+      "outputId": 0,
+      "inputModuleId": 11,
+      "inputId": 2
+    }
+  ]
+}

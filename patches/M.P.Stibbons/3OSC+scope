@@ -1,0 +1,153 @@
+{
+  "version": "0.3.1",
+  "modules": [
+    {
+      "plugin": "Core",
+      "model": "AudioInterface",
+      "pos": [
+        1410.0,
+        380.0
+      ],
+      "params": [],
+      "data": {
+        "deviceName": "MME: HP w2338h-0 (NVIDIA High Defini (0 in, 2 out)",
+        "sampleRate": 44100.0,
+        "blockSize": 256
+      }
+    },
+    {
+      "plugin": "Fundamental",
+      "model": "VCO",
+      "pos": [
+        540.0,
+        380.0
+      ],
+      "params": [
+        0.0,
+        0.0,
+        -5.940004825592041,
+        0.65699994564056396,
+        0.82399976253509521,
+        0.47250011563301086,
+        0.0
+      ]
+    },
+    {
+      "plugin": "Fundamental",
+      "model": "VCO",
+      "pos": [
+        390.0,
+        380.0
+      ],
+      "params": [
+        0.0,
+        1.0,
+        -11.501965522766113,
+        0.0,
+        0.70250016450881958,
+        0.41799983382225037,
+        0.4590001106262207
+      ]
+    },
+    {
+      "plugin": "Fundamental",
+      "model": "VCO",
+      "pos": [
+        690.0,
+        380.0
+      ],
+      "params": [
+        0.0,
+        1.0,
+        -34.236003875732422,
+        -1.0,
+        0.70400029420852661,
+        0.78450006246566772,
+        0.7695000171661377
+      ]
+    },
+    {
+      "plugin": "Befaco",
+      "model": "Mixer",
+      "pos": [
+        1185.0,
+        380.0
+      ],
+      "params": [
+        0.038999997079372406,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "plugin": "AudibleInstruments",
+      "model": "Links",
+      "pos": [
+        1005.0,
+        380.0
+      ],
+      "params": []
+    },
+    {
+      "plugin": "Fundamental",
+      "model": "Scope",
+      "pos": [
+        1065.0,
+        0.0
+      ],
+      "params": [
+        -0.0,
+        -0.015000008977949619,
+        1.0,
+        0.0,
+        -14.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "data": {
+        "sum": 0,
+        "ext": 0
+      }
+    }
+  ],
+  "wires": [
+    {
+      "outputModuleId": 2,
+      "outputId": 3,
+      "inputModuleId": 3,
+      "inputId": 0
+    },
+    {
+      "outputModuleId": 1,
+      "outputId": 2,
+      "inputModuleId": 3,
+      "inputId": 1
+    },
+    {
+      "outputModuleId": 3,
+      "outputId": 0,
+      "inputModuleId": 5,
+      "inputId": 0
+    },
+    {
+      "outputModuleId": 4,
+      "outputId": 0,
+      "inputModuleId": 0,
+      "inputId": 0
+    },
+    {
+      "outputModuleId": 5,
+      "outputId": 0,
+      "inputModuleId": 4,
+      "inputId": 0
+    },
+    {
+      "outputModuleId": 5,
+      "outputId": 1,
+      "inputModuleId": 6,
+      "inputId": 0
+    }
+  ]
+}
