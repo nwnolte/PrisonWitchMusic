@@ -1,0 +1,282 @@
+{
+  "version": "0.3.1",
+  "modules": [
+    {
+      "plugin": "Core",
+      "model": "AudioInterface",
+      "pos": [
+        105.0,
+        0.0
+      ],
+      "params": [],
+      "data": {
+        "deviceName": "MME: Speakers (High Definition Audio (0 in, 8 out)",
+        "sampleRate": 44100.0,
+        "blockSize": 256
+      }
+    },
+    {
+      "plugin": "AudibleInstruments",
+      "model": "Elements",
+      "pos": [
+        420.0,
+        0.0
+      ],
+      "params": [
+        1.0,
+        0.0,
+        0.0,
+        0.5,
+        0.0,
+        0.0,
+        0.0,
+        0.6034998893737793,
+        0.25850000977516174,
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "plugin": "AudibleInstruments",
+      "model": "Clouds",
+      "pos": [
+        255.0,
+        380.0
+      ],
+      "params": [
+        0.5149998664855957,
+        0.022499999031424522,
+        0.13200001418590546,
+        0.68599957227706909,
+        0.76149982213973999,
+        0.69050008058547974,
+        0.46699967980384827
+      ]
+    },
+    {
+      "plugin": "AudibleInstruments",
+      "model": "Braids",
+      "pos": [
+        630.0,
+        380.0
+      ],
+      "params": [
+        10.556995391845703,
+        -0.45899996161460876,
+        0.39599993824958801,
+        -0.36599999666213989,
+        0.72649997472763062,
+        -0.48899993300437927,
+        0.36050009727478027
+      ]
+    },
+    {
+      "plugin": "Fundamental",
+      "model": "SEQ3",
+      "pos": [
+        990.0,
+        0.0
+      ],
+      "params": [
+        2.0,
+        0.0,
+        0.0,
+        8.0,
+        1.818000316619873,
+        0.0,
+        2.1420004367828369,
+        0.0,
+        0.0,
+        1.9979994297027588,
+        0.94500011205673218,
+        0.0,
+        2.0249996185302734,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        2.2229998111724854,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        3.734999418258667,
+        0.0,
+        2.7809996604919434,
+        2.2319991588592529,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        3.7709994316101074,
+        0.0,
+        2.4119994640350342,
+        4.0679993629455566,
+        0.0,
+        0.0
+      ],
+      "data": {
+        "gates": [
+          1,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          1
+        ]
+      }
+    },
+    {
+      "plugin": "AudibleInstruments",
+      "model": "Links",
+      "pos": [
+        1065.0,
+        380.0
+      ],
+      "params": []
+    },
+    {
+      "plugin": "Befaco",
+      "model": "Mixer",
+      "pos": [
+        285.0,
+        0.0
+      ],
+      "params": [
+        0.63450014591217041,
+        0.62550002336502075,
+        0.65249991416931152,
+        0.52050000429153442
+      ]
+    }
+  ],
+  "wires": [
+    {
+      "outputModuleId": 3,
+      "outputId": 0,
+      "inputModuleId": 5,
+      "inputId": 0
+    },
+    {
+      "outputModuleId": 5,
+      "outputId": 1,
+      "inputModuleId": 2,
+      "inputId": 6
+    },
+    {
+      "outputModuleId": 2,
+      "outputId": 0,
+      "inputModuleId": 6,
+      "inputId": 0
+    },
+    {
+      "outputModuleId": 5,
+      "outputId": 2,
+      "inputModuleId": 2,
+      "inputId": 7
+    },
+    {
+      "outputModuleId": 2,
+      "outputId": 1,
+      "inputModuleId": 6,
+      "inputId": 1
+    },
+    {
+      "outputModuleId": 4,
+      "outputId": 1,
+      "inputModuleId": 3,
+      "inputId": 1
+    },
+    {
+      "outputModuleId": 4,
+      "outputId": 2,
+      "inputModuleId": 3,
+      "inputId": 2
+    },
+    {
+      "outputModuleId": 4,
+      "outputId": 3,
+      "inputModuleId": 2,
+      "inputId": 0
+    },
+    {
+      "outputModuleId": 4,
+      "outputId": 0,
+      "inputModuleId": 5,
+      "inputId": 1
+    },
+    {
+      "outputModuleId": 4,
+      "outputId": 4,
+      "inputModuleId": 3,
+      "inputId": 4
+    },
+    {
+      "outputModuleId": 6,
+      "outputId": 0,
+      "inputModuleId": 0,
+      "inputId": 0
+    },
+    {
+      "outputModuleId": 6,
+      "outputId": 1,
+      "inputModuleId": 0,
+      "inputId": 1
+    },
+    {
+      "outputModuleId": 1,
+      "outputId": 0,
+      "inputModuleId": 6,
+      "inputId": 3
+    },
+    {
+      "outputModuleId": 1,
+      "outputId": 1,
+      "inputModuleId": 6,
+      "inputId": 2
+    },
+    {
+      "outputModuleId": 4,
+      "outputId": 8,
+      "inputModuleId": 1,
+      "inputId": 3
+    },
+    {
+      "outputModuleId": 4,
+      "outputId": 11,
+      "inputModuleId": 5,
+      "inputId": 2
+    },
+    {
+      "outputModuleId": 5,
+      "outputId": 3,
+      "inputModuleId": 2,
+      "inputId": 4
+    },
+    {
+      "outputModuleId": 5,
+      "outputId": 4,
+      "inputModuleId": 1,
+      "inputId": 2
+    }
+  ]
+}
